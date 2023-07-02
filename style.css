@@ -1,0 +1,31 @@
+body{
+    background-color: red;
+}
+
+h1{
+    color: red;
+    background-color: yellow;
+}
+
+canvas{
+    border: 2px solid blue;
+    border-radius: 10px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    margin-top: 10px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    from{box-shadow: 4px 4px 40px rgb(0, 0, 255);}
+    to{box-shadow: 4px 4px 40px rgb(255, 255, 96);}
+}
+
+#open{
+    float: right;
+    margin-top: 2.5px;
+}
+p{
+    font-size: 23px;
+    color:cornsilk
+}
